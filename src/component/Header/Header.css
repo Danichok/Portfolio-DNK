@@ -1,0 +1,121 @@
+.dark {
+    --background-color-main: black;
+    --text-color: white;
+}
+
+.light {
+    --background-color-main: white;
+    --text-color: black;
+}
+
+.Header {
+    height: 100vh;
+    background-color: var(--background-color-main);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.navbar_logo {
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.self h2 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    color: var(--text-color);
+}
+
+.self h2:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    border-top: 2px solid var(--text-color);
+    content: "";
+}
+
+.self p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: end;
+    color: var(--text-color);
+}
+
+.header_name {
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif !important;
+    font-size: 52px;
+    align-items: center;
+    margin-top: 250px;
+    color: var(--text-color);
+}
+
+.Typewriter__wrapper {
+    font-family: 'DotGothic16', sans-serif !important;
+    font-size: 50px;
+}
+
+.Typewriter__cursor {
+    font-family: 'DotGothic16', sans-serif !important;
+    font-size: 50px;
+}
+
+.toggle_theme {
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+}
+
+.toggle_theme p {
+    transform-origin: left top;
+    backface-visibility: hidden;
+    transform: rotate(270deg);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+@media screen and (max-width: 1310px) {
+    .toggle_theme p {
+        transform: unset;
+        background-color: var(--text-color);
+        color: var(--background-color-main);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .toggle_theme {
+        right: 20px;
+        bottom: 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menu_link {
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Typewriter__wrapper {
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+    .menu_link {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .Typewriter__wrapper {
+        font-size: 37px;
+    }
+}

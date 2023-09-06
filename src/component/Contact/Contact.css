@@ -1,0 +1,109 @@
+.Contact {
+    border-bottom: 1px solid #E7E7E7;
+    background-color: var(--background-color-main);
+    padding-bottom: 50px;
+}
+
+.dark {
+    --background-color-main: black;
+    --text-color: white;
+}
+
+.light {
+    --background-color-main: white;
+    --text-color: black;
+}
+
+.contact_plot {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.contact_plot h2 {
+    font-size: 32px;
+    font-weight: 800;
+    position: relative;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.contact_plot hr {
+    height: 7px;
+    width: 40%;
+    background-color: var(--text-color);
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    margin-top: 7px;
+}
+
+.contact_link {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.contact_link svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    fill: var(--text-color);
+}
+
+.contact_link path {
+    fill: var(--text-color);
+}
+
+.order {
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.order h3 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    color: var(--text-color);
+}
+
+.order h3:before {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 20%;
+    border-top: 2px solid var(--text-color);
+    content: "";
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 265px;
+}
+
+.footer_content p {
+    color: #808080;
+    font-weight: 300;
+}
+
+.footer_content span {
+    font-weight: 900;
+}
+
+@media screen and (max-width: 500px) {
+    .contact_link svg {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .footer_content {
+        margin-top: 75px;
+    }
+    .contact_plot {
+        padding-top: 90px;
+    }
+}
