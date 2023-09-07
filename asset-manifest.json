@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-DNK/static/css/main.fa454a98.css",
+    "main.css": "/Portfolio-DNK/static/css/main.b0d8ffd2.css",
     "main.js": "/Portfolio-DNK/static/js/main.4a340c8d.js",
     "static/js/787.aeca62f9.chunk.js": "/Portfolio-DNK/static/js/787.aeca62f9.chunk.js",
     "static/media/project_3.webp": "/Portfolio-DNK/static/media/project_3.d9076726ac774f7310f8.webp",
@@ -17,12 +17,12 @@
     "static/media/skils4.svg": "/Portfolio-DNK/static/media/skils4.d076afbbb0ccd127fe403b160fe4d776.svg",
     "static/media/skils3.svg": "/Portfolio-DNK/static/media/skils3.85e72afda39a1a02481d0a5a1a875684.svg",
     "index.html": "/Portfolio-DNK/index.html",
-    "main.fa454a98.css.map": "/Portfolio-DNK/static/css/main.fa454a98.css.map",
+    "main.b0d8ffd2.css.map": "/Portfolio-DNK/static/css/main.b0d8ffd2.css.map",
     "main.4a340c8d.js.map": "/Portfolio-DNK/static/js/main.4a340c8d.js.map",
     "787.aeca62f9.chunk.js.map": "/Portfolio-DNK/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa454a98.css",
+    "static/css/main.b0d8ffd2.css",
     "static/js/main.4a340c8d.js"
   ]
 }
